@@ -1,0 +1,13 @@
+.main {
+    display: grid;
+    grid-template-rows: 5em 200px 200px; /*1em = 16px*/
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: auto 1fr auto; */
+    grid-template-columns: repeat(3, 200px);
+    /* font-size: 40px; */
+}
+
+.item {
+    border: 1px solid black;
+
+}
