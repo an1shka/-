@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: space-between; /* разделяет блоки по горизонтали */
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer a {
+        margin: 5px 0;
+    }
+}
